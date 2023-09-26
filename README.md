@@ -7,7 +7,7 @@ This repository contains Python code for predicting survival on the Titanic usin
 
 The Titanic Survival Prediction project aims to build a predictive model to determine whether a passenger survived or not based on various features. It employs two popular machine learning algorithms, Random Forest and Gradient Boosting, and combines their predictions using a Voting Classifier ensemble for better accuracy.
 
-**Dependencies **
+**Dependencies**
 Make sure you have the following Python libraries installed:
 
 Pandas
@@ -20,10 +20,10 @@ You can install them using pip:
 Copy code
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-**Dataset **
+**Dataset**
 The dataset used in this project is stored in the 'tested.csv' file. It contains information about Titanic passengers, including features like age, gender, class, and more.
 
-**Data Preprocessing **
+**Data Preprocessing**
 
 Data preprocessing involves handling missing values, transforming categorical variables, and splitting the dataset into training and testing sets.
 
@@ -33,8 +33,7 @@ Missing values in 'Age', 'Embarked', and 'Fare' are filled with appropriate valu
 Unnecessary columns ('PassengerId', 'Name', 'Ticket', 'Cabin') are dropped.
 Categorical variables are one-hot encoded.
 
-**Feature Engineering 
-**
+**Feature Engineering**
 Feature selection and scaling are essential steps in machine learning.
 
 Feature selection is performed using the SelectKBest method with an Anova F-value scoring function.
